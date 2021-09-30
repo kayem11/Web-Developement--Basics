@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    color: #fcfcfc;
+    font-size: large;
+    font-weight: 200;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    padding-top: 10px;
+    
+ 
+  
+}
+#heading{
+    color: #fcfcfc;
+    font-size: x-large;
+    font-weight: 80;
+    font-family: Schnyder,"Noto Sans","Droid Sans","Helvetica Neue",Corbel,Helvetica,Arial,sans-serif;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    text-align: center;
+}
+.writtenBy{
+    color: rgb(112, 110, 110); 
+    font-size: smaller;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.para {
+    color: rgb(65, 63, 63);
+    font-family: 'Slabo 27px', serif;
+   
+margin-left: 15%;
+margin-right: 15%;
+
+}
+
+#textedit{
+/* letter-spacing: 1px; */
+word-spacing:1px;
+text-align: justify;
+direction:ltr;
+/* text-indent: 10px; */
+/* text-transform: uppercase; */
+}
+
+.bckgrndImg {
+    width:100%
+    height:100vh;
+    background-image: url("bkb.jpg.jpg");
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+
+.bckgrndImg1 {
+    width:100%
+    height:100vh;
+    background-image: url("bkc.jpg.jpg");
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+
+.borderset{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(218, 213, 213, 0.164);
+    border-radius: 3px;
+    border-style:ridge;
+    border-color: rgba(236, 236, 236, 0.021);
+    border-width:5px;
+    box-shadow: -2px 8px 10px -3px rgba(176, 224, 230, 0.705);
+    /* box-shadow: inset 0 0 2px rgba(176, 224, 230, 0.705);  */
+    margin: auto;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: smaller;
+    font-weight: 600;
+    
+}
+
+a:link {
+    color: rgb(0, 89, 255);
+}
+a:hover {
+    color: powderblue;
+}
+a:active {
+    color: rgb(2, 124, 2);
+}
+a:link {
+    color: rgb(23, 1, 73);
+}
+
+
+ul{
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ol{
+    list-style-type: upper-roman;
+    margin-left: 20px;
+}
+
+input{
+    padding-left: 5px;
+    margin-left:5px;
+    margin: 5px;
+    font-family: 'Slabo 27px', serif;
+    font-size: smaller;;
+    font-weight: 600;
+}
